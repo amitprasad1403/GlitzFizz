@@ -4029,7 +4029,7 @@ td:last-child {
 .folio-entries .entry__cat {
     font-size  : calc(var(--text-size) * 0.8);
     line-height: 1.75;
-    color      : var(--color-gray-15);
+    color      : #d8cfcfd1 /*var(--color-gray-15);*/
 }
 
 .folio-entries .entry__title {
@@ -4045,7 +4045,7 @@ td:last-child {
  */
 .folio-entries .entry:focus .entry__link::before,
 .folio-entries .entry:hover .entry__link::before {
-    opacity   : 1;
+    opacity   : 0.7;
     visibility: visible;
 }
 
@@ -4091,6 +4091,8 @@ td:last-child {
 .s-testimonials__avatar {
     width        : var(--vspace-1_75);
     height       : var(--vspace-1_75);
+    /* width        : 150px;
+    height       : 120px; */
     border-radius: 100%;
     outline      : none;
     position     : absolute;
